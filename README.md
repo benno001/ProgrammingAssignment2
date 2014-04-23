@@ -21,12 +21,6 @@ Else, it will compute a new inverted matrix.
 
 > Example output: 
 
-    [,1] [,2]
-
-    [1,]    1    3
-
-    [2,]    2    4
-
      [,1] [,2]
      
     [1,]   -2  1.5
