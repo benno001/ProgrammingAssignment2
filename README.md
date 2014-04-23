@@ -4,6 +4,7 @@
 * get the value of the vector
 * set the value of the mean
 * get the value of the mean
+The input for makeCacheMatrix must be a square matrix. 
 
 `cacheSolve` returns the inverted matrix. When already cached, it retrieves from the cache.
 Else, it will compute a new inverted matrix.
@@ -15,7 +16,7 @@ Else, it will compute a new inverted matrix.
   
 `exampleMatrix <- matrix(exampleVector, 2)`
   
-`exampleCacheMatrix <- makeCacheMatrix()`
+`exampleCacheMatrix <- makeCacheMatrix(exampleMatrix)`
   
 `cacheSolve(exampleCacheMatrix)`
 
